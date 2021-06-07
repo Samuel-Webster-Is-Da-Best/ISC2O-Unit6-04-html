@@ -6,15 +6,15 @@ function math () {
   const bottom = document.getElementById('bottom').value
   if (height <= 0) {
     alert('you must use numbers above 0')
-    end()
+    return()
   }
   if (height <= 0) {
     alert('you must use numbers above 0')
-    end()
+    return()
   }
   if (height <= 0) {
     alert('you must use numbers above 0')
-    end()
+    return()
   }
   alert(top * height / 2 + bottom * height / 2)
   document.getElementById('height').value = ''
