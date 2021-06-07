@@ -1,10 +1,22 @@
 document.getElementById('button').addEventListener('click', math)
 
 function math () {
-  var height = document.getElementById('height').value
-  var top = document.getElementById('top').value
-  var bottom = document.getElementById('bottom').value
-  alert(top*height/2+bottom*height/2)
+  const height = document.getElementById('height').value
+  const top = document.getElementById('top').value
+  const bottom = document.getElementById('bottom').value
+  if (height <= 0) {
+    alert('you must use numbers above 0')
+    end()
+  }
+  if (height <= 0) {
+    alert('you must use numbers above 0')
+    end()
+  }
+  if (height <= 0) {
+    alert('you must use numbers above 0')
+    end()
+  }
+  alert(top * height / 2 + bottom * height / 2)
   document.getElementById('height').value = ''
   document.getElementById('top').value = ''
   document.getElementById('bottom').value = ''
